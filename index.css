@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('assets/bg.png');
+    background-size: cover;
+}
+
+.canvas_parent{
+    box-sizing: content-box;
+    position: relative;
+    width: 80vh;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: transparent;
+    border: 5px solid black;
+}
+
+#main_canvas
+{
+    position: absolute;
+    z-index: 1;
+}
